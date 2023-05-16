@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calcul caisse</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body class="has-background-light">
+  <section class="section container is-fullhd pt-4">
+
+    <div class="columns">
+
+        <div class="column fond-caisse">
+
+            <h2 class="title is-2 has-text-centered has-text-dark is-uppercase mb-2 is-family-code">Fond de caisse</h2>
+
+            <div class="columns">
+
+                <div class="column monnaie">
+
+                    <h3 class="subtitle is-3 has-text-centered has-text-dark mb-1 is-family-code">Pièces / billets</h3>
+
+                    <table class="table is-bordered is-striped box has-background-info-light">
+
+                        <thead class="has-background-info">
+                
+                            <tr>
+                                <th class="has-text-centered has-text-light">Valeurs</th>
+                                <th class="has-text-centered has-text-light">Quantités</th>
+                                <th class="has-text-centered has-text-light">Total</th>
+                            </tr>
+                
+                        </thead>
+        
+                        <tbody>
+        
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.01€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.02€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.05€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.10€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.20€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">0.50€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">1€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">2€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">5€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">10€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">20€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-cashregister">50€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+        
+                        </tbody>
+                
+                    </table>
+
+                </div>
+
+                <div class="column rouleaux-totaux">
+
+                    <h3 class="subtitle is-3 has-text-centered has-text-dark mb-1 is-family-code">Rouleaux</h3>
+
+                    <table class="table is-bordered is-striped box has-background-info-light">
+
+                        <thead class="has-background-info">
+                
+                            <tr>
+                                <th class="has-text-centered has-text-light">Valeurs</th>
+                                <th class="has-text-centered has-text-light">Montants</th>
+                                <th class="has-text-centered has-text-light">Quantités</th>
+                                <th class="has-text-centered has-text-light">Total</th>
+                            </tr>
+                
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td class="has-text-right">0.01€</td>
+                                <td class="has-text-right value-cashregister">0.50€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">0.02€</td>
+                                <td class="has-text-right value-cashregister">1€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">0.05€</td>
+                                <td class="has-text-right value-cashregister">2.50</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">0.10€</td>
+                                <td class="has-text-right value-cashregister">4€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">0.20€</td>
+                                <td class="has-text-right value-cashregister">8€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">0.50€</td>
+                                <td class="has-text-right value-cashregister">20€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">1€</td>
+                                <td class="has-text-right value-cashregister">25€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right">2€</td>
+                                <td class="has-text-right value-cashregister">50€</td>
+                                <td><input class="input is-static quantity-cashregister" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-cashregister">0.00€</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <table class="table is-bordered is-striped box has-background-info-light">
+
+                        <thead class="has-background-info">
+                            <th><h4 class="title is-4 has-text-centered has-text-light">Total fond de caisse</h3></th>
+                        </thead>
+                        <tbody>
+                            <th class="has-text-right is-size-4"><span id="cash-fund" class="has-text-weight-bold is-size-3"></span></th>
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <div class="column coffre">
+
+                    <h3 class="subtitle is-3 has-text-centered has-text-dark mb-1 is-family-code">Coffre</h3>
+
+                    <table class="table is-bordered is-striped box has-background-link-light">
+
+                        <thead>
+                
+                            <tr class="has-background-link">
+                                <th class="has-text-centered has-text-light">Valeurs</th>
+                                <th class="has-text-centered has-text-light">Quantités</th>
+                                <th class="has-text-centered has-text-light">Total</th>
+                            </tr>
+                
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td class="has-text-right value-safe">10€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-safe">20€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-safe">50€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-safe">100€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-safe">200€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-right value-safe">500€</td>
+                                <td><input class="input is-static quantity-safe" type="number" value="0"></td>
+                                <td class="has-text-weight-bold has-text-right total-safe">0.00€</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <table class="table is-bordered is-striped box has-background-link-light">
+
+                        <thead class="has-background-link">
+                            <th><h4 class="title is-4 has-text-centered has-text-light">Total à remettre</h3></th>
+                        </thead>
+                        <tbody>
+                            <th class="has-text-right is-size-4"><span id="total-safe-bank" class="has-text-weight-bold is-size-3"></span></th>
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </section>
+  </body>
+
+  <script src="app.js"></script>
+</html>
