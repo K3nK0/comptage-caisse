@@ -37,3 +37,10 @@ inputsQteSafe.forEach(input => {
         document.getElementById('total-safe-bank').textContent = `${totalsSafe.toFixed(2)}€`;
     })
 })
+
+
+buttonPrint = document.getElementById('print-button')
+
+buttonPrint.addEventListener('click', function() {
+  window.print()
+})
